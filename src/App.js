@@ -13,7 +13,7 @@ class App extends React.Component{
   /* You have to write it this way using an arrow function */
   addOne = () => {
     this.setState({
-      count: this.state.count + 1
+      count: this.state.count + 1,
     })
   }
 
